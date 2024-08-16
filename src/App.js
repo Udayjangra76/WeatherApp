@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable react/jsx-no-target-blank */
+import React from "react";
 import CurrentLocation from "./currentLocation";
 import "./App.css";
 
@@ -9,7 +10,7 @@ function App() {
         <CurrentLocation />
       </div>
       <div className="footer-info">
-        Created with ❤️ Mahipal Dhayal
+        Created with Uday Jangra
 
         {" "}
         -

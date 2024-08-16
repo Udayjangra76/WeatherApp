@@ -193,7 +193,7 @@ img {
 /*-- Index-Page-Styling --*/
 
 body {
-  background: url("./images/background.jpg");
+  background: url("./images/cloudy.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -225,16 +225,18 @@ h1 {
 
 .container {
   width: 65%;
-  height: 80vh;
+  height: 85vh;
   margin: 50px auto;
   background-color: rgba(0, 0, 0, 0.73);
+  border-radius: 10px;
 }
 
 .city {
   width: 60%;
   height: 100%;
+  border-radius: 10px;
   float: left;
-  background: url("./images/city.jpg");
+  background: url("./images/sunny.jpeg");
   background-repeat: repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -252,7 +254,7 @@ h1 {
 }
 
 .title h2 {
-  color: #e8e8e8;
+  color: #ee350c;
   font-size: 30px;
   font-weight: bold;
 }
